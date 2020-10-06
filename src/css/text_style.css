@@ -1,0 +1,65 @@
+.culture{
+  margin-top: 50px;
+
+  color: #e68b49;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+.economy{
+  margin-top: 50px;
+
+  color: #5e8dff;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+.politics{
+  margin-top: 50px;
+
+  color: #5cbf67;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+.science{
+  margin-top: 50px;
+
+  color: #807acf;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+.social{
+  margin-top: 50px;
+
+  color: #ab6f6f;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+.figure{
+  margin-top: 50px;
+
+  color: #76b1b5;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+.figures{
+  margin-top: 50px;
+
+  color: #75b3d9;
+  font-family:'Alatsi', sans-serif;
+  font-size: 2em;
+}
+
+.ja{
+  font-family: 'Crimson Text', serif;
+  color: black;
+  font-size: 1.2em;
+}
+.ja2{
+  font-family: 'Alatsi', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.ja3{
+  font-family: 'Alatsi', sans-serif;
+  color: black;
+  font-size: 1.2em;
+}

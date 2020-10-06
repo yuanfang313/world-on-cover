@@ -1,0 +1,69 @@
+.grid .tick{
+stroke-width: 0.9px;
+/* stroke-dasharray: 4px 2px; */
+opacity: 0.1;
+}
+
+.grid path{
+  stroke-width: 0;
+}
+
+.bar rect:hover{
+  opacity: 0.6;
+}
+
+.bar2 rect:hover{
+  opacity: 1;
+}
+
+.wrapper2 {
+  position: relative;
+}
+.th2_container{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.th2{
+
+}
+.th2_sub_ch{
+  margin-top: 10px;
+}
+.th2_text{
+  margin-top: 30px;
+
+}
+.theme2_img{
+  display: block;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 100%;
+
+}
+.theme1_img{
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.th1_container{
+  width: 60%;
+}
+.th1_div{
+  padding-left: 8em;
+  padding-right: 8em;
+  padding-bottom: 1em;
+  margin-left: 12px;
+  margin-right:12px;
+  margin-top: 5px;
+}
+.th2_sub_ch{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+.timeline_img{
+  width: 100%;
+}
