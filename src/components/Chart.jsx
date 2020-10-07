@@ -16,5 +16,4 @@ const Chart = ({ dimensions, children }) => (
     </svg>
   </ChartContext.Provider>
 );
-
 export default Chart;

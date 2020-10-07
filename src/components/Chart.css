@@ -2,16 +2,22 @@
     overflow: visible;
 }
 
+.chart {
+    text-align: center;
+}
+
 .chartLabel {
     font-size: 1.7em;
-    text-transform: capitalize;
     font-style: normal;
+    text-transform: capitalize;
     fill: black;
 }
 
-
-
 .lineChart {
+    display: inline;
+}
+
+.barChart {
     display: inline;
 }
 

@@ -92,5 +92,14 @@ p {
 
 .criminal_img {
   width: 100%;
+}
 
+.subChartContainer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.subCategory {
+
+  margin-bottom: 200px;
 }

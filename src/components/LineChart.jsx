@@ -1,7 +1,6 @@
 import React from "react";
-
-import Line from "./commonChart/Line";
 import Chart from "./Chart";
+import Line from "./commonChart/Line";
 import Axis from "./commonChart/Axis";
 
 function LineChart({
@@ -12,6 +11,9 @@ function LineChart({
   xScale,
   yScale,
   label,
+  index,
+  category,
+  bool,
   ...props
 }) {
   const xAccessorScaled = (d) => xScale(xAccessor(d));
@@ -27,6 +29,8 @@ function LineChart({
           data={data}
           xAccessor={xAccessorScaled}
           yAccessor={yAccessorScaled}
+          index={index}
+          bool={bool}
         />
       </Chart>
     </div>

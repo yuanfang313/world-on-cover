@@ -1,0 +1,184 @@
+[{
+        "category": "culture",
+        "subCategory": "culture of daily life",
+        "proportion": 0.1865
+    },
+    {
+        "category": "culture",
+        "subCategory": "mass culture",
+        "proportion": 0.1429
+    },
+    {
+        "category": "culture",
+        "subCategory": "foreign culture",
+        "proportion": 0.1429
+    },
+    {
+        "category": "culture",
+        "subCategory": "regional culture",
+        "proportion": 0.1151
+    },
+    {
+        "category": "culture",
+        "subCategory": "chinese traditional culture",
+        "proportion": 0.0913
+    },
+    {
+        "category": "culture",
+        "subCategory": "other spectaculars and media",
+        "proportion": 0.0675
+    },
+    {
+        "category": "economy",
+        "subCategory": "industries and sectors",
+        "proportion": 0.2899
+    },
+    {
+        "category": "economy",
+        "subCategory": "culture market and media",
+        "proportion": 0.1449
+    },
+    {
+        "category": "economy",
+        "subCategory": "stock market, investment and financial crisis",
+        "proportion": 0.1449
+    },
+    {
+        "category": "economy",
+        "subCategory": "economic system and performance",
+        "proportion": 0.0676
+    },
+    {
+        "category": "economy",
+        "subCategory": "personal financial",
+        "proportion": 0.0435
+    },
+    {
+        "category": "economy",
+        "subCategory": "regional economy",
+        "proportion": 0.0386
+    },
+    {
+        "category": "politics",
+        "subCategory": "policy",
+        "proportion": 0.3091
+    },
+    {
+        "category": "politics",
+        "subCategory": "foreign politics",
+        "proportion": 0.1727
+    },
+    {
+        "category": "politics",
+        "subCategory": "government",
+        "proportion": 0.0727
+    },
+    {
+        "category": "politics",
+        "subCategory": "warfare",
+        "proportion": 0.0727
+    },
+    {
+        "category": "politics",
+        "subCategory": "international politics",
+        "proportion": 0.0727
+    },
+    {
+        "category": "politics",
+        "subCategory": "corruption",
+        "proportion": 0.0636
+    },
+    {
+        "category": "science and technology",
+        "subCategory": "archaeology",
+        "proportion": 0.2195,
+        "trendImage": "img/science/Science_Archaeology.svg"
+    },
+    {
+        "category": "science and technology",
+        "subCategory": "computer science",
+        "proportion": 0.1463,
+        "trendImage": "img/science/Science_Computer Science.svg"
+    },
+    {
+        "category": "science and technology",
+        "subCategory": "medical technology",
+        "proportion": 0.122,
+        "trendImage": "img/science/Science_Medical Technology.svg"
+    },
+    {
+        "category": "science and technology",
+        "subCategory": "space technology",
+        "proportion": 0.0976
+    },
+    {
+        "category": "science and technology",
+        "subCategory": "bioscience & biotechnology",
+        "proportion": 0.0732
+    },
+    {
+        "category": "science and technology",
+        "subCategory": "psychology",
+        "proportion": 0.0732
+    },
+    {
+        "category": "social issue",
+        "subCategory": "crime issues",
+        "proportion": 0.2381
+    },
+    {
+        "category": "social issue",
+        "subCategory": "public health & health services",
+        "proportion": 0.2095
+    },
+    {
+        "category": "social issue",
+        "subCategory": "public safety",
+        "proportion": 0.2
+    },
+    {
+        "category": "social issue",
+        "subCategory": "environmental issue & animal protection",
+        "proportion": 0.181
+    },
+    {
+        "category": "social issue",
+        "subCategory": "urbanization",
+        "proportion": 0.0476
+    },
+    {
+        "category": "social issue",
+        "proportion": 0.0286
+    },
+    {
+        "category": "figure",
+        "subCategory": "celebrities",
+        "proportion": 0.2114
+    },
+    {
+        "category": "figure",
+        "subCategory": "politicians",
+        "proportion": 0.1707
+    },
+    {
+        "category": "figure",
+        "subCategory": "writers",
+        "proportion": 0.1301
+    },
+    {
+        "category": "figure",
+        "subCategory": "entrepreneurs & businessmen",
+        "proportion": 0.0976
+    },
+    {
+        "category": "figure",
+        "subCategory": "artists",
+        "proportion": 0.0569
+    },
+    {
+        "category": "figure",
+        "subCategory": "movie directors",
+        "proportion": 0.0569
+    }
+
+]

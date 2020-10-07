@@ -36,6 +36,7 @@ function MainCategoryCharts({
           label={el.split(" ").join("-")}
         />
       ))}
+      {/* {console.log(data)} */}
     </div>
   );
 }

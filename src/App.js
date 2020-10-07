@@ -7,7 +7,8 @@ import MainCategory from "./components/contents/MainCategory";
 import SubCategory from "./components/contents/SubCategory";
 
 import data from "./data-dev/data.json";
-import data2 from "./preData/culture.json";
+import data2 from "./preData/subDataOverYears.json";
+import data3 from "./preData/subTotalComparison.json";
 
 const dateParser = d3.timeParse("%Y");
 const dateAccessor = (d) => dateParser(d.year);
@@ -30,10 +31,12 @@ const metrics = [
 function App() {
   const [loadData, setData] = useState([]);
   const [subData, setSubData] = useState([]);
+  const [subTotalData, setSubTotalData] = useState([]);
 
   useEffect(() => {
     setData(data);
     setSubData(data2);
+    setSubTotalData(data3);
   }, []);
 
   return (
@@ -46,8 +49,11 @@ function App() {
           metrics={metrics}
           xAccessor={dateAccessor}
         />
-        <SubCategory data={subData} xAccessor={dateAccessor} />
-        {console.log(subData)}
+        <SubCategory
+          data2={subData}
+          data3={subTotalData}
+          xAccessor={dateAccessor}
+        />
       </main>
     </React.Fragment>
   );
