@@ -43,6 +43,7 @@ function Bars({ data, dimensions, category, onClickBar }) {
             y={i * 30}
             width={d.proportion * 1000}
             height={20}
+            style={{ cursor: "pointer" }}
             fill="#9980FA"
             onClick={() => onClickBar(d.subCategory, startIndex / 6)}
           />

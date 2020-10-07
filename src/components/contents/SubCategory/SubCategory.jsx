@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Summary from "./Summary";
 import SubCategoryCharts from "./SubCategoryCharts";
+import IntroSubC from "./IntroSubC";
+import SubNav from "./SubNav";
+import Intro from "./Intro";
 import Finding from "./Finding";
 
 const subMetrics = [
@@ -16,9 +18,12 @@ const subMetrics2 = [
   "culture of daily life",
   "industries and sectors",
   "policy",
+  "archaeology",
+  "crime issues",
+  "celebrities",
 ];
 
-class SubCategoryUnit extends Component {
+class SubCategory extends Component {
   state = {
     category: "culture",
     subcategory: "culture of daily life",
@@ -44,7 +49,9 @@ class SubCategoryUnit extends Component {
 
     return (
       <div className="subCategoryUnit">
-        <Summary onClick={this.handleClick} />
+        <IntroSubC />
+        <SubNav onClick={this.handleClick} />
+        <Intro category={this.state.category} />
         <SubCategoryCharts
           data2={data2}
           data3={data3}
@@ -54,10 +61,10 @@ class SubCategoryUnit extends Component {
           onClickBar={this.handleClickBar}
           xAccessor={xAccessor}
         />
-        <Finding />
+        <Finding category={this.state.category} />
       </div>
     );
   }
 }
 
-export default SubCategoryUnit;
+export default SubCategory;

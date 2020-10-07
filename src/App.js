@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import * as d3 from "d3";
 import "./App.css";
 import Header from "./components/contents/Header";
-import Intro from "./components/contents/Intro";
-import MainCategory from "./components/contents/MainCategory";
-import SubCategory from "./components/contents/SubCategory";
+import IntroInHeader from "./components/contents/IntroInHeader";
+import MainCategory from "./components/contents/MainCategory/MainCategory";
+import SubCategory from "./components/contents/SubCategory/SubCategory";
 
 import data from "./data-dev/data.json";
 import data2 from "./preData/subDataOverYears.json";
@@ -43,7 +43,7 @@ function App() {
     <React.Fragment>
       <Header />
       <main className="container">
-        <Intro />
+        <IntroInHeader />
         <MainCategory
           data={loadData}
           metrics={metrics}
@@ -53,8 +53,8 @@ function App() {
           data2={subData}
           data3={subTotalData}
           xAccessor={dateAccessor}
-        />
-      </main>
+        />{" "}
+      </main>{" "}
     </React.Fragment>
   );
 }

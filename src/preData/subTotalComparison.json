@@ -113,7 +113,7 @@
     },
     {
         "category": "science and technology",
-        "subCategory": "bioscience & biotechnology",
+        "subCategory": "bioscience and biotechnology",
         "proportion": 0.0732
     },
     {
@@ -122,32 +122,33 @@
         "proportion": 0.0732
     },
     {
-        "category": "social issue",
+        "category": "social issues",
         "subCategory": "crime issues",
         "proportion": 0.2381
     },
     {
-        "category": "social issue",
-        "subCategory": "public health & health services",
+        "category": "social issues",
+        "subCategory": "public health and health services",
         "proportion": 0.2095
     },
     {
-        "category": "social issue",
+        "category": "social issues",
         "subCategory": "public safety",
         "proportion": 0.2
     },
     {
-        "category": "social issue",
-        "subCategory": "environmental issue & animal protection",
+        "category": "social issues",
+        "subCategory": "environmental issue and animal protection",
         "proportion": 0.181
     },
     {
-        "category": "social issue",
+        "category": "social issues",
         "subCategory": "urbanization",
         "proportion": 0.0476
     },
     {
-        "category": "social issue",
+        "category": "social issues",
+        "subCategory": "issues in the education system",
         "proportion": 0.0286
     },
     {
@@ -167,7 +168,7 @@
     },
     {
         "category": "figure",
-        "subCategory": "entrepreneurs & businessmen",
+        "subCategory": "entrepreneurs and businessmen",
         "proportion": 0.0976
     },
     {

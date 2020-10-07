@@ -1,7 +1,7 @@
 import React from "react";
 import timelineImg from "../../img/timeline.svg";
 
-function Intro(props) {
+function IntroInHeader(props) {
   return (
     <section id="intro">
       <p className="th2_text container">
@@ -32,4 +32,4 @@ function Intro(props) {
   );
 }
 
-export default Intro;
+export default IntroInHeader;

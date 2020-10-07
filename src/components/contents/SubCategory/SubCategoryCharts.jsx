@@ -1,8 +1,8 @@
 import React from "react";
 import * as d3 from "d3";
-import Dimensions from "./utils/Dimensions";
-import LineChart from "../LineChart";
-import BarChart from "../BarChart";
+import Dimensions from "../utils/Dimensions";
+import LineChart from "../../LineChart";
+import BarChart from "../../BarChart";
 
 const dimensionsOfLineChart = new Dimensions(270, 250, 30, 15, 60, 0);
 const dimensionOfBarChart = new Dimensions(380, 250, 30, 15, 60, 50);
@@ -43,28 +43,12 @@ function SubCategoryCharts({
         index={index}
         bool={true}
       />
-      {/* {console.log("data2", data2[0])} */}
-      {console.log("index", index)}
-      {console.log("subcategory", subcategory)}
       <BarChart
         data={data3}
         dimensions={dimensionOfBarChart}
         category={category}
         onClickBar={onClickBar}
       />
-
-      {/* {subMetrics.map((el, i) => (
-        <LineChart
-          key={i}
-          data={data}
-          dimensions={dimensionsOfLineChart}
-          xAccessor={xAccessor}
-          yAccessor={(d) => d[el]}
-          xScale={xScale}
-          yScale={yScale}
-          label={el.split(" ").join("-")}
-        />
-      ))} */}
     </div>
   );
 }

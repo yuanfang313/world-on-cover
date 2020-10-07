@@ -1,7 +1,7 @@
 import React from "react";
 import * as d3 from "d3";
-import LineChart from "../LineChart";
-import Dimensions from "./utils/Dimensions";
+import LineChart from "../../LineChart";
+import Dimensions from "../utils/Dimensions";
 
 const dimensionsOfLineChart = new Dimensions(270, 270, 30, 15, 60, 60);
 
