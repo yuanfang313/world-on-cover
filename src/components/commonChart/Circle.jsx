@@ -22,8 +22,9 @@ const Circles = ({
           key={keyAccessor(d, i)}
           cx={xAccessor(d, i)}
           cy={yAccessor(d, i)}
-          r="3.5"
+          r="3"
           fill={color}
+          stroke={color}
           style={{ cursor: "pointer" }}
         />
       ))}

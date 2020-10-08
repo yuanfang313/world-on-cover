@@ -66,13 +66,17 @@
     transition: all 0.3s ease-out;
 }
 
-.Bars__rect {
+.Circles__circle:hover {
+    stroke-width: 6px;
+}
 
+.Bars__rect {
     transition: all 0.3s ease-out;
 }
 
 .Bars__rect:hover {
     fill-opacity: 1;
-    stroke-width: 1px;
+    transform: skew(0.5deg, 0deg);
+    stroke-width: 1.5px;
     stroke: white;
 }
