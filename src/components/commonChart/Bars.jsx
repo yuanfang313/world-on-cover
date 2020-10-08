@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Bars({ data, dimensions, category, onClickBar }) {
+function Bars({
+  data,
+  category,
+  subcategory,
+  color,
+  onClickBar,
+  changeCategory,
+}) {
+  const [opacity, setOpacity] = useState(1);
+
   let startIndex, endIndex;
+  let changeColor = color;
 
   switch (category) {
     case "culture":
@@ -39,19 +49,29 @@ function Bars({ data, dimensions, category, onClickBar }) {
       {data.slice(startIndex, endIndex).map((d, i) => (
         <g key={i} className="bars">
           <rect
+            className="Bars__rect"
             x={0}
             y={i * 30}
             width={d.proportion * 1000}
-            height={20}
+            height={22}
             style={{ cursor: "pointer" }}
-            fill="#9980FA"
+            fill={changeColor}
+            fillOpacity={d.subCategory === subcategory ? opacity : 0.5}
             onClick={() => onClickBar(d.subCategory, startIndex / 6)}
+            onMouseEnter={() => {
+              onClickBar(d.subCategory, startIndex / 6);
+            }}
           />
-          <text x={d.proportion * 1000 + 20} y={i * 30 + 15}>
+          <text
+            className="chartLabel_bar"
+            x={d.proportion * 1000 + 20}
+            y={i * 30 + 15}
+          >
             {`${d.subCategory}  --  ${(d.proportion * 100).toFixed(2)}%`}
           </text>
         </g>
       ))}
+      {console.log(subcategory)}
     </React.Fragment>
   );
 }

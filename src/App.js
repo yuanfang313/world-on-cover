@@ -13,20 +13,36 @@ import data3 from "./preData/subTotalComparison.json";
 const dateParser = d3.timeParse("%Y");
 const dateAccessor = (d) => dateParser(d.year);
 
-const metrics = [
-  "culture",
-  "economy",
-  "politics",
-  "education",
-  "sports",
-  "science and technology",
-  "history events",
-  "news events",
-  "social issue",
-  "figure",
-  "personal livelihood",
-  "personal issue and cultivation",
+const categoryArr = Object.keys(data[0]).slice(2);
+const colorArr = [
+  "#11a579",
+  "#cc503e",
+  "#3969ac",
+  "#f2b701",
+  "#7f3c8d",
+  "#66c5cc",
+  "#80ba5a",
+  "#e68310",
+  "#cf1c90",
+  "#008695",
+  "#f97b72",
+  "#4b4b8f",
 ];
+
+// const metrics = {
+//   culture: "#11a579",
+//   economy: "#cc503e",
+//   politics: "#3969ac",
+//   education: "#f2b701",
+//   sports: "#7f3c8d",
+//   science_and_technology: "#66c5cc",
+//   history_events: "#80ba5a",
+//   news_events: "#e68310",
+//   social_issue: "#cf1c90",
+//   figure: "#008695",
+//   personal_livelihood: "#f97b72",
+//   personal_issue_and_cultivation: "#4b4b8f",
+// };
 
 function App() {
   const [loadData, setData] = useState([]);
@@ -46,12 +62,15 @@ function App() {
         <IntroInHeader />
         <MainCategory
           data={loadData}
-          metrics={metrics}
+          categoryArr={categoryArr}
+          colors={colorArr}
           xAccessor={dateAccessor}
         />
         <SubCategory
           data2={subData}
           data3={subTotalData}
+          colors={colorArr}
+          categoryArr={categoryArr}
           xAccessor={dateAccessor}
         />{" "}
       </main>{" "}

@@ -1,183 +1,216 @@
 [{
         "category": "culture",
+        "id": 0,
         "subCategory": "culture of daily life",
         "proportion": 0.1865
     },
     {
         "category": "culture",
+        "id": 1,
         "subCategory": "mass culture",
         "proportion": 0.1429
     },
     {
         "category": "culture",
+        "id": 2,
         "subCategory": "foreign culture",
         "proportion": 0.1429
     },
     {
         "category": "culture",
+        "id": 3,
         "subCategory": "regional culture",
         "proportion": 0.1151
     },
     {
         "category": "culture",
+        "id": 4,
         "subCategory": "chinese traditional culture",
         "proportion": 0.0913
     },
     {
         "category": "culture",
+        "id": 5,
         "subCategory": "other spectaculars and media",
         "proportion": 0.0675
     },
     {
         "category": "economy",
+        "id": 0,
         "subCategory": "industries and sectors",
         "proportion": 0.2899
     },
     {
         "category": "economy",
+        "id": 1,
         "subCategory": "culture market and media",
         "proportion": 0.1449
     },
     {
         "category": "economy",
+        "id": 2,
         "subCategory": "stock market, investment and financial crisis",
         "proportion": 0.1449
     },
     {
         "category": "economy",
+        "id": 3,
         "subCategory": "economic system and performance",
         "proportion": 0.0676
     },
     {
         "category": "economy",
+        "id": 4,
         "subCategory": "personal financial",
         "proportion": 0.0435
     },
     {
         "category": "economy",
+        "id": 5,
         "subCategory": "regional economy",
         "proportion": 0.0386
     },
     {
         "category": "politics",
+        "id": 0,
         "subCategory": "policy",
         "proportion": 0.3091
     },
     {
         "category": "politics",
+        "id": 1,
         "subCategory": "foreign politics",
         "proportion": 0.1727
     },
     {
         "category": "politics",
+        "id": 2,
         "subCategory": "government",
         "proportion": 0.0727
     },
     {
         "category": "politics",
+        "id": 3,
         "subCategory": "warfare",
         "proportion": 0.0727
     },
     {
         "category": "politics",
+        "id": 4,
         "subCategory": "international politics",
         "proportion": 0.0727
     },
     {
         "category": "politics",
+        "id": 5,
         "subCategory": "corruption",
         "proportion": 0.0636
     },
     {
         "category": "science and technology",
+        "id": 0,
         "subCategory": "archaeology",
-        "proportion": 0.2195,
-        "trendImage": "img/science/Science_Archaeology.svg"
+        "proportion": 0.2195
     },
     {
         "category": "science and technology",
+        "id": 1,
         "subCategory": "computer science",
-        "proportion": 0.1463,
-        "trendImage": "img/science/Science_Computer Science.svg"
+        "proportion": 0.1463
     },
     {
         "category": "science and technology",
+        "id": 2,
         "subCategory": "medical technology",
-        "proportion": 0.122,
-        "trendImage": "img/science/Science_Medical Technology.svg"
+        "proportion": 0.122
     },
     {
         "category": "science and technology",
+        "id": 3,
         "subCategory": "space technology",
         "proportion": 0.0976
     },
     {
         "category": "science and technology",
+        "id": 4,
         "subCategory": "bioscience and biotechnology",
         "proportion": 0.0732
     },
     {
         "category": "science and technology",
+        "id": 5,
         "subCategory": "psychology",
         "proportion": 0.0732
     },
     {
         "category": "social issues",
+        "id": 0,
         "subCategory": "crime issues",
         "proportion": 0.2381
     },
     {
         "category": "social issues",
+        "id": 1,
         "subCategory": "public health and health services",
         "proportion": 0.2095
     },
     {
         "category": "social issues",
+        "id": 2,
         "subCategory": "public safety",
         "proportion": 0.2
     },
     {
         "category": "social issues",
+        "id": 3,
         "subCategory": "environmental issue and animal protection",
         "proportion": 0.181
     },
     {
         "category": "social issues",
+        "id": 4,
         "subCategory": "urbanization",
         "proportion": 0.0476
     },
     {
         "category": "social issues",
+        "id": 5,
         "subCategory": "issues in the education system",
         "proportion": 0.0286
     },
     {
         "category": "figure",
+        "id": 0,
         "subCategory": "celebrities",
         "proportion": 0.2114
     },
     {
         "category": "figure",
+        "id": 1,
         "subCategory": "politicians",
         "proportion": 0.1707
     },
     {
         "category": "figure",
+        "id": 2,
         "subCategory": "writers",
         "proportion": 0.1301
     },
     {
         "category": "figure",
+        "id": 3,
         "subCategory": "entrepreneurs and businessmen",
         "proportion": 0.0976
     },
     {
         "category": "figure",
+        "id": 4,
         "subCategory": "artists",
         "proportion": 0.0569
     },
     {
         "category": "figure",
+        "id": 5,
         "subCategory": "movie directors",
         "proportion": 0.0569
     }

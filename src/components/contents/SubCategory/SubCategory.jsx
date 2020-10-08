@@ -28,24 +28,25 @@ class SubCategory extends Component {
     category: "culture",
     subcategory: "culture of daily life",
     indexOfCategory: 0,
-    navChanged: false,
+    changeCategory: false,
   };
 
   handleClick = (category) => {
+    let changed = this.state.changeCategory;
     this.setState({
       category: category,
       indexOfCategory: subMetrics.indexOf(category),
       subcategory: subMetrics2[subMetrics.indexOf(category)],
+      changeCategory: !changed,
     });
   };
 
   handleClickBar = (subcategory, index) => {
     this.setState({ subcategory, indexOfCategory: index });
-    console.log(index);
   };
 
   render() {
-    const { data2, data3, xAccessor } = this.props;
+    const { data2, data3, xAccessor, categoryArr, colors } = this.props;
 
     return (
       <div className="subCategoryUnit">
@@ -60,6 +61,8 @@ class SubCategory extends Component {
           index={this.state.indexOfCategory}
           onClickBar={this.handleClickBar}
           xAccessor={xAccessor}
+          color={colors[categoryArr.indexOf(this.state.category)]}
+          changeCategory={this.state.changeCategory}
         />
         <Finding category={this.state.category} />
       </div>

@@ -7,7 +7,8 @@ const dimensionsOfLineChart = new Dimensions(270, 270, 30, 15, 60, 60);
 
 function MainCategoryCharts({
   dimensions = dimensionsOfLineChart,
-  metrics,
+  categoryArr,
+  colors,
   data,
   xAccessor,
 }) {
@@ -24,7 +25,7 @@ function MainCategoryCharts({
 
   return (
     <div className="chart">
-      {metrics.map((el, i) => (
+      {categoryArr.map((el, i) => (
         <LineChart
           key={i}
           data={data}
@@ -33,7 +34,8 @@ function MainCategoryCharts({
           yAccessor={(d) => d[el]}
           xScale={xScale}
           yScale={yScale}
-          label={el.split(" ").join("-")}
+          label={el.split(" ").join("_")}
+          color={colors[i]}
         />
       ))}
       {/* {console.log(data)} */}

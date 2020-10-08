@@ -15,7 +15,10 @@ function SubCategoryCharts({
   category,
   subcategory,
   index,
+  categoryArr,
+  color,
   onClickBar,
+  changeCategory,
   ...props
 }) {
   const xScale = d3
@@ -40,6 +43,7 @@ function SubCategoryCharts({
         yScale={yScale}
         label={subcategory.split(" ").join("-")}
         category={category}
+        color={color}
         index={index}
         bool={true}
       />
@@ -47,7 +51,10 @@ function SubCategoryCharts({
         data={data3}
         dimensions={dimensionOfBarChart}
         category={category}
+        subcategory={subcategory}
+        color={color}
         onClickBar={onClickBar}
+        changeCategory={changeCategory}
       />
     </div>
   );

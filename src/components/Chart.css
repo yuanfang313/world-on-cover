@@ -13,6 +13,10 @@
     fill: black;
 }
 
+.chartLabel_bar {
+    font-size: 1.0em;
+}
+
 .lineChart {
     display: inline;
 }
@@ -23,9 +27,10 @@
 
 .Line--type-line {
     fill: none;
-    stroke: #9980FA;
+    stroke-opacity: 0.5;
     stroke-width: 3px;
     stroke-linecap: round;
+    transition: all 0.3s ease-out;
 }
 
 .Line--type-area {
@@ -58,11 +63,16 @@
 }
 
 .Circles__circle {
-    fill: #9980FA;
     transition: all 0.3s ease-out;
 }
 
 .Bars__rect {
-    fill: #9980FA;
+
     transition: all 0.3s ease-out;
+}
+
+.Bars__rect:hover {
+    fill-opacity: 1;
+    stroke-width: 1px;
+    stroke: white;
 }

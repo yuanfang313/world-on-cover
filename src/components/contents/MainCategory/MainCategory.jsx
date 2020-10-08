@@ -2,11 +2,16 @@ import React from "react";
 import IntroMainC from "./IntroMainC";
 import MainCategoryCharts from "./MainCategoryCharts";
 
-function MainCategory({ data, metrics, xAccessor }) {
+function MainCategory({ data, categoryArr, colors, xAccessor }) {
   return (
     <section className="mainCategory">
       <IntroMainC />
-      <MainCategoryCharts data={data} metrics={metrics} xAccessor={xAccessor} />
+      <MainCategoryCharts
+        data={data}
+        categoryArr={categoryArr}
+        colors={colors}
+        xAccessor={xAccessor}
+      />
     </section>
   );
 }
