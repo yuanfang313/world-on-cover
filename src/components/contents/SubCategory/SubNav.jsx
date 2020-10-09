@@ -11,23 +11,25 @@ function SubNav({ onClick }) {
   ];
 
   return (
-    <div>
+    <div className="navBar">
       <hr />
       <ul className="nav justify-content-center">
         {categoryArr.map((category, i) => (
-          <li
-            key={i}
-            className="nav-item"
-            style={{ cursor: "pointer" }}
-            onClick={() => {
-              onClick(category);
-            }}
-          >
-            <a className="nav-link active">{category}</a>
-          </li>
+          <div key={i} className="nav-div">
+            <li
+              className="nav-item"
+              style={{ cursor: "pointer" }}
+              onClick={() => {
+                onClick(category);
+              }}
+            >
+              <p className="navLabel">
+                {category[0].toUpperCase() + category.slice(1)}
+              </p>
+            </li>
+          </div>
         ))}
       </ul>
-      <hr />
     </div>
   );
 }

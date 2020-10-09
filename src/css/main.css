@@ -95,11 +95,54 @@ p {
 }
 
 .subChartContainer {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
 }
 
 .subCategory {
 
   margin-bottom: 200px;
+}
+
+.navBar {
+  height: 100px;
+}
+
+.navLabel {
+  display: block;
+  padding: 0.3rem 1.1rem;
+  margin-bottom: 0px;
+  font-size: 1.0rem;
+  color: rgb(20, 53, 184);
+  transition: all 0.3s ease-out;
+}
+
+.navLabel:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.sub_intro {
+  height: 150px;
+}
+
+.tooltipLabel {
+
+  font-size: 0.8em;
+  font-style: normal;
+  text-transform: capitalize;
+  fill: black;
+  z-index: 5;
+}
+
+
+.tooltip_rect-pointer {
+  position: absolute;
+  transform-origin: top left;
+  transform: rotate(45deg);
+}
+
+.tooltipContainer {
+  fill: rgb(241, 252, 253);
+  z-index: 10;
 }

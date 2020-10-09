@@ -7,6 +7,7 @@
 }
 
 .chartLabel {
+
     font-size: 1.7em;
     font-style: normal;
     text-transform: capitalize;
@@ -28,7 +29,7 @@
 .Line--type-line {
     fill: none;
     stroke-opacity: 0.5;
-    stroke-width: 3px;
+    stroke-width: 3.5px;
     stroke-linecap: round;
     transition: all 0.3s ease-out;
 }
@@ -64,6 +65,7 @@
 
 .Circles__circle {
     transition: all 0.3s ease-out;
+    z-index: -1;
 }
 
 .Circles__circle:hover {

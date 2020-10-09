@@ -14,6 +14,7 @@ function LineChart({
   label,
   index,
   category,
+  subcategory,
   color,
   bool,
   ...props
@@ -27,6 +28,7 @@ function LineChart({
       <Chart dimensions={dimensions}>
         <Axis dimension="x" scale={xScale} label={label} />
         <Axis dimension="y" scale={yScale} label={label} />
+
         <Line
           {...props}
           data={data}
@@ -42,6 +44,8 @@ function LineChart({
           keyAccessor={keyAccessor}
           xAccessor={xAccessorScaled}
           yAccessor={yAccessorScaled}
+          subcategory={subcategory}
+          category={category}
           index={index}
           bool={bool}
           color={color}

@@ -1,5 +1,6 @@
 [{
     "category": "culture",
+    "Year": "2003-2006",
     "year": 2003,
     "mass culture": 0.2414,
     "culture of daily life": 0.0517,
@@ -16,6 +17,7 @@
   },
   {
     "category": "culture",
+    "Year": "2007-2010",
     "year": 2007,
     "mass culture": 0.1636,
     "culture of daily life": 0.1091,
@@ -32,6 +34,7 @@
   },
   {
     "category": "culture",
+    "Year": "2011-2014",
     "year": 2011,
     "mass culture": 0.0735,
     "culture of daily life": 0.3382,
@@ -48,6 +51,7 @@
   },
   {
     "category": "culture",
+    "Year": "2015-2018",
     "year": 2018,
     "mass culture": 0.1127,
     "culture of daily life": 0.2113,

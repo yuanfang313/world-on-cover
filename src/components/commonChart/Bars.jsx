@@ -52,8 +52,9 @@ function Bars({
             className="Bars__rect"
             x={0}
             y={i * 30}
+            rx="10"
             width={d.proportion * 1000}
-            height={22}
+            height={20}
             style={{ cursor: "pointer" }}
             fill={changeColor}
             fillOpacity={d.subCategory === subcategory ? opacity : 0.5}

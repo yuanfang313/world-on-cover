@@ -32,13 +32,13 @@ function MainCategoryCharts({
           dimensions={dimensionsOfLineChart}
           xAccessor={xAccessor}
           yAccessor={(d) => d[el]}
+          category={el}
           xScale={xScale}
           yScale={yScale}
           label={el.split(" ").join("_")}
           color={colors[i]}
         />
       ))}
-      {/* {console.log(data)} */}
     </div>
   );
 }

@@ -42,6 +42,7 @@ function SubCategoryCharts({
         xScale={xScale}
         yScale={yScale}
         label={subcategory.split(" ").join("-")}
+        subcategory={subcategory}
         category={category}
         color={color}
         index={index}
