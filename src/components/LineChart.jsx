@@ -3,6 +3,8 @@ import Chart from "./Chart";
 import Line from "./commonChart/Line";
 import Axis from "./commonChart/Axis";
 import Circle from "./commonChart/Circle";
+import Grids from "./commonChart/Grids";
+import RectBackground from "./commonChart/RectBackground";
 
 function LineChart({
   data,
@@ -26,8 +28,11 @@ function LineChart({
   return (
     <div className="lineChart">
       <Chart dimensions={dimensions}>
+        <RectBackground dimensions={dimensions} />
         <Axis dimension="x" scale={xScale} label={label} />
         <Axis dimension="y" scale={yScale} label={label} />
+        <Grids dimension="x" scale={xScale} label={label} />
+        <Grids dimension="y" scale={yScale} label={label} />
 
         <Line
           {...props}

@@ -4,8 +4,8 @@ import Dimensions from "../utils/Dimensions";
 import LineChart from "../../LineChart";
 import BarChart from "../../BarChart";
 
-const dimensionsOfLineChart = new Dimensions(270, 250, 30, 15, 60, 0);
-const dimensionOfBarChart = new Dimensions(380, 250, 30, 15, 60, 50);
+const dimensionsOfLineChart = new Dimensions(270, 30, 30, 30, 60);
+const dimensionOfBarChart = new Dimensions(270, 50, 50, 0, 0);
 
 function SubCategoryCharts({
   data2,
@@ -41,7 +41,7 @@ function SubCategoryCharts({
         yAccessor={(d) => d[subcategory]}
         xScale={xScale}
         yScale={yScale}
-        label={subcategory.split(" ").join("-")}
+        label={subcategory.split(" ").join("_")}
         subcategory={subcategory}
         category={category}
         color={color}

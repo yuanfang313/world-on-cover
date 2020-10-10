@@ -8,19 +8,28 @@ const Axis = ({ dimension, scale, label, ...props }) => {
     x: "axisBottom",
     y: "axisLeft",
   };
+  const formatter = d3.format(".0%");
+  const axisGenerator =
+    dimension === "x"
+      ? d3[axisGeneratorsByDimension[dimension]]().scale(scale)
+      : d3[axisGeneratorsByDimension[dimension]]()
+          .scale(scale)
+          .tickFormat(formatter);
 
-  const axisGenerator = d3[axisGeneratorsByDimension[dimension]]().scale(scale);
   const id = dimension === "x" ? "xAxis" : "yAxis";
   const ID = `${label}_${id}`;
   d3.select(`#${ID}`).call(axisGenerator);
-
+  console.log(label);
   return (
     <React.Fragment>
       <g
         {...props}
         id={ID}
+        className="axis"
         transform={
-          dimension === "x" ? `translate(0, ${dimensions.boundedHeight})` : null
+          dimension === "x"
+            ? `translate(0, ${dimensions.boundedHeight + 10})`
+            : `translate(-10, 0)`
         }
       >
         <text
@@ -29,7 +38,7 @@ const Axis = ({ dimension, scale, label, ...props }) => {
           y={`${dimensions.marginBottom - 15}`}
           fill="black"
         >
-          {dimension === "x" ? label.split("-").join(" ") : null}
+          {dimension === "x" ? label.split("_").join(" ") : null}
         </text>
       </g>
     </React.Fragment>

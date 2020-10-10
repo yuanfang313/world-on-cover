@@ -1,12 +1,13 @@
 export default class Dimensions {
 
-    constructor(width, height, mt, mr, mb, ml) {
+    constructor(width, ml, mt, mr, mb) {
         this.width = width;
-        this.height = height;
-        this.marginTop = mt;
-        this.marginBottom = mb;
-        this.marginRight = mr;
+        this.height = width * 1;
         this.marginLeft = ml;
+        this.marginTop = mt;
+        this.marginRight = mr;
+        this.marginBottom = mb;
+
         this.boundedWidth = this.width - this.marginLeft - this.marginRight;
         this.boundedHeight = this.height - this.marginTop - this.marginBottom;
     };

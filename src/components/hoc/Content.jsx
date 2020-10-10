@@ -42,7 +42,7 @@ function Content({ headline, time, val, x, y, ...props }) {
             y - 30
           })`}
         >
-          {`${time}:  ${val}`}
+          {`${time}: ${val}`}
         </text>
       </g>
       {console.log(headline.length)}

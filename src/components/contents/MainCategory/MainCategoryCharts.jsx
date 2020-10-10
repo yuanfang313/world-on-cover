@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import LineChart from "../../LineChart";
 import Dimensions from "../utils/Dimensions";
 
-const dimensionsOfLineChart = new Dimensions(270, 270, 30, 15, 60, 60);
+const dimensionsOfLineChart = new Dimensions(270, 50, 30, 30, 60);
 
 function MainCategoryCharts({
   dimensions = dimensionsOfLineChart,

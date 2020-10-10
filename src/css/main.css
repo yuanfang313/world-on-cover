@@ -146,3 +146,23 @@ p {
   fill: rgb(241, 252, 253);
   z-index: 10;
 }
+
+.grid .tick {
+  stroke-width: 0.9px;
+  /* stroke-dasharray: 4px 2px; */
+  opacity: 0.1;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.axis .tick {
+  stroke-width: 1px;
+  /* stroke-dasharray: 4px 2px; */
+  opacity: 0.9;
+}
+
+.axis path {
+  stroke-width: 0;
+}
