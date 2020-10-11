@@ -95,12 +95,12 @@ p {
 }
 
 .subChartContainer {
+  position: relative;
   margin-top: 10px;
   text-align: center;
 }
 
 .subCategory {
-
   margin-bottom: 200px;
 }
 
@@ -108,8 +108,11 @@ p {
   height: 100px;
 }
 
+
+
 .navLabel {
-  display: block;
+  /* display: block; */
+  display: inline;
   padding: 0.3rem 1.1rem;
   margin-bottom: 0px;
   font-size: 1.0rem;

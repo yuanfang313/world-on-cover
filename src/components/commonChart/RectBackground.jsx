@@ -1,6 +1,8 @@
 import React from "react";
+import { useChartDimensions } from "../Chart";
 
-function RectBackground({ dimensions }) {
+function RectBackground(props) {
+  const dimensions = useChartDimensions();
   return (
     <rect
       x={0}

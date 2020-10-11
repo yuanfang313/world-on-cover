@@ -7,27 +7,19 @@ const Circles = ({
   xAccessor,
   yAccessor,
   category,
-  subcategory,
-  index,
   color,
   bool,
 }) => {
   const [x, setX] = useState();
   const [y, setY] = useState();
-  const [Subcategory, setSubcategory] = useState(subcategory);
   const [Category, setCategory] = useState(category);
   const [year, setYear] = useState("2003");
   const [val, setVal] = useState(0);
 
-  let changingData = data.slice(index * 4, index * 4 + 4);
-  if (bool) {
-    data = changingData;
-  }
-
   return (
     <React.Fragment>
       <Tooltip
-        headline={bool ? Subcategory : Category}
+        headline={Category}
         time={year}
         val={`${(val * 100).toFixed(2)}%`}
         x={x}
@@ -46,9 +38,9 @@ const Circles = ({
             onMouseEnter={() => {
               setX(xAccessor(d, i));
               setY(yAccessor(d, i));
+              setCategory(category);
+              setVal(d[category]);
               bool ? setYear(d.Year) : setYear(d.year);
-              bool ? setSubcategory(subcategory) : setCategory(category);
-              bool ? setVal(d[subcategory]) : setVal(d[category]);
             }}
           />
         ))}

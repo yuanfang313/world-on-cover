@@ -14,8 +14,8 @@
     fill: black;
 }
 
-.chartLabel_bar {
-    font-size: 1.0em;
+.chartLabel_bar_val {
+    font-size: 0.7em;
 }
 
 .lineChart {

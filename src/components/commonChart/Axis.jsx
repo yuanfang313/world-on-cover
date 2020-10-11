@@ -2,7 +2,7 @@ import React from "react";
 import * as d3 from "d3";
 import { useChartDimensions } from "../Chart";
 
-const Axis = ({ dimension, scale, label, ...props }) => {
+const Axis = ({ dimension, scale, label, bool, ...props }) => {
   const dimensions = useChartDimensions();
   const axisGeneratorsByDimension = {
     x: "axisBottom",
@@ -35,7 +35,11 @@ const Axis = ({ dimension, scale, label, ...props }) => {
         <text
           className="chartLabel"
           x={`${dimensions.boundedWidth / 2}`}
-          y={`${dimensions.marginBottom - 15}`}
+          y={
+            bool
+              ? `${-dimensions.boundedHeight - 30}`
+              : `${dimensions.marginBottom - 15}`
+          }
           fill="black"
         >
           {dimension === "x" ? label.split("_").join(" ") : null}

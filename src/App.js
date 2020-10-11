@@ -7,11 +7,12 @@ import MainCategory from "./components/contents/MainCategory/MainCategory";
 import SubCategory from "./components/contents/SubCategory/SubCategory";
 
 import data from "./data-dev/data.json";
-import data2 from "./preData/subDataOverYears.json";
-import data3 from "./preData/subTotalComparison.json";
+import data2 from "./data-dev/subDataOverYears.json";
+import data3 from "./data-dev/subTotalComparison.json";
 
 const dateParser = d3.timeParse("%Y");
 const dateAccessor = (d) => dateParser(d.year);
+const proportionAccessor = (d) => d.proportion;
 
 const categoryArr = Object.keys(data[0]).slice(2);
 const colorArr = [
@@ -28,21 +29,6 @@ const colorArr = [
   "#f97b72",
   "#4b4b8f",
 ];
-
-// const metrics = {
-//   culture: "#11a579",
-//   economy: "#cc503e",
-//   politics: "#3969ac",
-//   education: "#f2b701",
-//   sports: "#7f3c8d",
-//   science_and_technology: "#66c5cc",
-//   history_events: "#80ba5a",
-//   news_events: "#e68310",
-//   social_issue: "#cf1c90",
-//   figure: "#008695",
-//   personal_livelihood: "#f97b72",
-//   personal_issue_and_cultivation: "#4b4b8f",
-// };
 
 function App() {
   const [loadData, setData] = useState([]);
@@ -71,9 +57,10 @@ function App() {
           data3={subTotalData}
           colors={colorArr}
           categoryArr={categoryArr}
-          xAccessor={dateAccessor}
-        />{" "}
-      </main>{" "}
+          xAccessor_lineChart={dateAccessor}
+          xAccessor_barChart={proportionAccessor}
+        />
+      </main>
     </React.Fragment>
   );
 }

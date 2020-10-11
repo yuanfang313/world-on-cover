@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 function Bars({
   data,
+  dimensions,
+  xAccessor,
   category,
   subcategory,
   color,
@@ -51,10 +53,10 @@ function Bars({
           <rect
             className="Bars__rect"
             x={0}
-            y={i * 30}
+            y={(i * dimensions.boundedHeight) / 6}
             rx="10"
-            width={d.proportion * 1000}
-            height={20}
+            width={xAccessor(d)}
+            height={dimensions.boundedHeight / 6 - 10}
             style={{ cursor: "pointer" }}
             fill={changeColor}
             fillOpacity={d.subCategory === subcategory ? opacity : 0.5}
@@ -63,13 +65,18 @@ function Bars({
               onClickBar(d.subCategory, startIndex / 6);
             }}
           />
-          <text
+          {/* <text
             className="chartLabel_bar"
-            x={d.proportion * 1000 + 20}
-            y={i * 30 + 15}
+            x={xAccessor(d) + 10}
+            y={(i * dimensions.boundedHeight) / 6 + 15}
           >
-            {`${d.subCategory}  --  ${(d.proportion * 100).toFixed(2)}%`}
-          </text>
+            {`${d.subCategory}`}
+          </text> */}
+          <text
+            className="chartLabel_bar_val"
+            x={xAccessor(d) + 10}
+            y={(i * dimensions.boundedHeight) / 6 + 15}
+          >{`${(d.proportion * 100).toFixed(2)}%`}</text>
         </g>
       ))}
       {console.log(subcategory)}

@@ -22,7 +22,6 @@ const subMetrics2 = [
   "crime issues",
   "celebrities",
 ];
-
 class SubCategory extends Component {
   state = {
     category: "culture",
@@ -46,13 +45,19 @@ class SubCategory extends Component {
   };
 
   render() {
-    const { data2, data3, xAccessor, categoryArr, colors } = this.props;
+    const {
+      data2,
+      data3,
+      xAccessor_lineChart,
+      xAccessor_barChart,
+      categoryArr,
+      colors,
+    } = this.props;
 
     return (
       <div className="subCategoryUnit">
         <IntroSubC />
         <SubNav onClick={this.handleClick} />
-        <Intro category={this.state.category} />
         <SubCategoryCharts
           data2={data2}
           data3={data3}
@@ -60,10 +65,12 @@ class SubCategory extends Component {
           subcategory={this.state.subcategory}
           index={this.state.indexOfCategory}
           onClickBar={this.handleClickBar}
-          xAccessor={xAccessor}
+          xAccessor_lineChart={xAccessor_lineChart}
+          xAccessor_barChart={xAccessor_barChart}
           color={colors[categoryArr.indexOf(this.state.category)]}
           changeCategory={this.state.changeCategory}
         />
+        <Intro category={this.state.category} />
         <Finding category={this.state.category} />
       </div>
     );

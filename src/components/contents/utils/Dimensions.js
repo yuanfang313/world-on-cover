@@ -1,8 +1,8 @@
 export default class Dimensions {
 
-    constructor(width, ml, mt, mr, mb) {
+    constructor(width, n, ml, mt, mr, mb) {
         this.width = width;
-        this.height = width * 1;
+        this.height = width * n;
         this.marginLeft = ml;
         this.marginTop = mt;
         this.marginRight = mr;

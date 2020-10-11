@@ -11,7 +11,7 @@ function SubNav({ onClick }) {
   ];
 
   return (
-    <div className="navBar">
+    <div>
       <hr />
       <ul className="nav justify-content-center">
         {categoryArr.map((category, i) => (
