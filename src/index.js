@@ -10,15 +10,13 @@ import "bootstrap/dist/js/bootstrap.js";
 // import $ from "jquery";
 // import Popper from "popper.js";
 import "./css/main.css";
-import "./css/style.css";
-import "./css/text_style.css";
+//import "./css/style.css";
+//import "./css/text_style.css";
 
-ReactDOM.render( <
-  React.StrictMode >
-  <
-  App / >
-  <
-  /React.StrictMode>,
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 

@@ -54,7 +54,7 @@ function Bars({
             className="Bars__rect"
             x={0}
             y={(i * dimensions.boundedHeight) / 6}
-            rx="10"
+            rx="5"
             width={xAccessor(d)}
             height={dimensions.boundedHeight / 6 - 10}
             style={{ cursor: "pointer" }}
