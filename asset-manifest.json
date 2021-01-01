@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/world-on-cover/static/css/main.551d871a.chunk.css",
+    "main.js": "/world-on-cover/static/js/main.dfcc4aa7.chunk.js",
+    "main.js.map": "/world-on-cover/static/js/main.dfcc4aa7.chunk.js.map",
+    "runtime-main.js": "/world-on-cover/static/js/runtime-main.dfe0b4e6.js",
+    "runtime-main.js.map": "/world-on-cover/static/js/runtime-main.dfe0b4e6.js.map",
+    "static/css/2.4c356872.chunk.css": "/world-on-cover/static/css/2.4c356872.chunk.css",
+    "static/js/2.3c11cbaf.chunk.js": "/world-on-cover/static/js/2.3c11cbaf.chunk.js",
+    "static/js/2.3c11cbaf.chunk.js.map": "/world-on-cover/static/js/2.3c11cbaf.chunk.js.map",
+    "index.html": "/world-on-cover/index.html",
+    "precache-manifest.112fea66b73ccbe22ea270e5750c63a2.js": "/world-on-cover/precache-manifest.112fea66b73ccbe22ea270e5750c63a2.js",
+    "service-worker.js": "/world-on-cover/service-worker.js",
+    "static/css/2.4c356872.chunk.css.map": "/world-on-cover/static/css/2.4c356872.chunk.css.map",
+    "static/css/main.551d871a.chunk.css.map": "/world-on-cover/static/css/main.551d871a.chunk.css.map",
+    "static/js/2.3c11cbaf.chunk.js.LICENSE.txt": "/world-on-cover/static/js/2.3c11cbaf.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/world-on-cover/static/media/header_img.15d28608.png",
+    "static/media/mz.png": "/world-on-cover/static/media/mz.4b42269c.png",
+    "static/media/timeline.svg": "/world-on-cover/static/media/timeline.9830d12c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfe0b4e6.js",
+    "static/css/2.4c356872.chunk.css",
+    "static/js/2.3c11cbaf.chunk.js",
+    "static/css/main.551d871a.chunk.css",
+    "static/js/main.dfcc4aa7.chunk.js"
+  ]
+}
