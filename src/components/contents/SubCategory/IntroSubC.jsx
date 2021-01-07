@@ -4,7 +4,6 @@ function IntroSubC(props) {
   return (
     <div className="theme2">
       <h2 className="title_ch">The Trend of Subcategories (2003 - 2018)</h2>
-      <br />
       <p className="th2_text container">
         Here are the detailed contents about subcategories of headlines. Except
         the “NA” category, I selected the 6 subcategories that have the maximum

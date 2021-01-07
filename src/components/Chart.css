@@ -3,13 +3,13 @@
 }
 
 .chart {
+    margin-top: 5%;
     text-align: center;
 }
 
 .chartLabel {
-
-    font-size: 1.7em;
-    font-style: normal;
+    font-size: 1.8em;
+    font-family: 'Alatsi', sans-serif;
     text-transform: capitalize;
     fill: black;
 }
@@ -31,7 +31,7 @@
     stroke-opacity: 0.5;
     stroke-width: 3.5px;
     stroke-linecap: round;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .Line--type-area {
@@ -64,7 +64,7 @@
 }
 
 .Circles__circle {
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
     z-index: -1;
 }
 
@@ -82,3 +82,25 @@
     stroke-width: 1.5px;
     stroke: white;
 }
+
+
+
+.grid .tick {
+    stroke-width: 0.9px;
+    /* stroke-dasharray: 4px 2px; */
+    opacity: 0.1;
+  }
+  
+  .grid path {
+    stroke-width: 0;
+  }
+  
+  .axis .tick {
+    stroke-width: 1px;
+    /* stroke-dasharray: 4px 2px; */
+    opacity: 0.9;
+  }
+  
+  .axis path {
+    stroke-width: 0;
+  }

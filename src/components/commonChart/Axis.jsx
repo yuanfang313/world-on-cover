@@ -37,8 +37,8 @@ const Axis = ({ dimension, scale, label, bool, ...props }) => {
           x={`${dimensions.boundedWidth / 2}`}
           y={
             bool
-              ? `${-dimensions.boundedHeight - 30}`
-              : `${dimensions.marginBottom - 15}`
+              ? `${-dimensions.boundedHeight - 35}`
+              : `${dimensions.marginBottom - 20}`
           }
           fill="black"
         >

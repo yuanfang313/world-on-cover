@@ -3,15 +3,11 @@ import React from "react";
 function CultureFinding(props) {
   return (
     <React.Fragment>
-      <p>
+      <p className="th2_text container">
         1.
         <span className="ja">
-          Foreign Culture, Literature, Video Games, Design, Religion
-        </span>
-        hadn’t appeared until 2007.
-      </p>
-
-      <p>
+          Foreign Culture, Literature, Video Games, Design, Religion </span>hadn’t appeared until 2007.
+        <br />
         2. Only one headline belongs to <span className="ja">Religion</span>,
         which appeared in 2010. It is about the discussion of
         <em className="ja2">

@@ -55,9 +55,9 @@ class SubCategory extends Component {
     } = this.props;
 
     return (
-      <div className="subCategoryUnit">
+      <section className="subCategoryUnit">
         <IntroSubC />
-        <SubNav onClick={this.handleClick} />
+        <SubNav onClick={this.handleClick} index={this.state.indexOfCategory} num />
         <SubCategoryCharts
           data2={data2}
           data3={data3}
@@ -71,8 +71,9 @@ class SubCategory extends Component {
           changeCategory={this.state.changeCategory}
         />
         <Intro category={this.state.category} />
+        <hr />
         <Finding category={this.state.category} />
-      </div>
+      </section>
     );
   }
 }

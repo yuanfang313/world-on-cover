@@ -1,6 +1,6 @@
 import React from "react";
 
-function SubNav({ onClick }) {
+function SubNav({ onClick, index, num}) {
   const categoryArr = [
     "culture",
     "economy",
@@ -12,24 +12,30 @@ function SubNav({ onClick }) {
 
   return (
     <div>
+     
+      <div className="subNavContainer">
       <hr />
-      <ul className="nav justify-content-center">
-        {categoryArr.map((category, i) => (
-          <div key={i} className="nav-div">
-            <li
-              className="nav-item"
-              style={{ cursor: "pointer" }}
-              onClick={() => {
-                onClick(category);
-              }}
-            >
-              <p className="navLabel">
-                {category[0].toUpperCase() + category.slice(1)}
-              </p>
-            </li>
-          </div>
-        ))}
-      </ul>
+        <ul className="nav justify-content-center">
+          {categoryArr.map((category, i) => (
+            <div key={i} className="nav-div">
+              <li
+                className="nav-item"
+                style={{ cursor: "pointer" }}
+                onClick={() => {
+                  onClick(category);
+                  
+                }}
+              >
+                <p className="navLabel">
+                  {category[0].toUpperCase() + category.slice(1)}
+                </p>
+                {console.log(i)}
+              </li>
+            </div>
+          ))}
+        </ul>
+        <hr />
+      </div>
     </div>
   );
 }

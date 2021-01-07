@@ -6,42 +6,11 @@ p {
   opacity: 0.8;
 }
 
+/* header */
 #header {
   background-image: url("../img/header_img.png");
   width: 100%;
   height: 100%;
-}
-
-.header1_text {
-  text-align: center;
-  margin: 100px 10% 0px 10%;
-  font-size: 5rem;
-  font-family: 'Alatsi', sans-serif;
-  color: #fcf5b0;
-}
-
-.header2_text {
-  text-align: center;
-  margin: 20px auto 100px auto;
-  font-size: 2rem;
-  font-family: 'Alatsi', sans-serif;
-  color: #fffdf9;
-}
-
-.header3_text {
-  text-align: center;
-  margin: 20px auto 100px auto;
-  font-size: 1.5rem;
-  font-family: 'Alatsi', sans-serif;
-  color: #fffdf9;
-}
-
-.hd_sl {
-  color: #da2d2d;
-}
-
-.hd_time {
-  color: #c0ffb3;
 }
 
 .hd_img {
@@ -52,56 +21,27 @@ p {
   transform: rotate(15deg);
 }
 
-.theme_img {
-  display: block;
+/* intro */
+#intro {
+  margin-top: 100px;
+}
+.timeline_img{
+  margin-top: 3%;
   width: 100%;
 }
 
-.intro {
-  margin-top: 100px;
-}
-
-.intro_container {
-  width: 85%;
-  margin-left: 9.3%;
-  margin-right: auto;
-}
-
-.title_s {
-  margin-top: 100px;
-  font-family: 'Abril Fatface', cursive;
-}
-
-.title_ch {
-  margin-top: 80px;
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Alatsi', sans-serif;
-}
-
+/* theme */
 .theme1_ch {
   margin-top: 10px;
   margin-bottom: 100px;
 }
+/* theme */
 
-.footer {
-  text-align: center;
-  background-color: #464159;
-  padding: 50px 0 20px;
-}
+/* sub-theme */
 
-.criminal_img {
-  width: 100%;
-}
-
-.subChartContainer {
-  position: relative;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.subCategory {
-  margin-bottom: 200px;
+/* subNavContainer */
+.subNavContainer {
+  margin-top: 5%;
 }
 
 .navBar {
@@ -112,30 +52,51 @@ p {
   /* display: block; */
   display: inline;
   padding: 0.3rem 1.1rem;
-  margin-bottom: 0px;
-  font-size: 1.0rem;
-  color: rgb(20, 53, 184);
+  font-size: 1.2rem;
+  font-family: 'Alatsi', sans-serif;
+  color: rgb(92, 93, 94);
   transition: all 0.3s ease-out;
+}
+
+.navLabel.click {
+  color: rgb(3, 3, 3); 
 }
 
 .navLabel:hover {
   color: black;
   font-weight: 500;
 }
+/* subNavContainer */
 
-.sub_intro {
-  height: 150px;
+.subChartContainer {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  /* height: 270px; */
 }
 
-.tooltipLabel {
+.sub_intro {
+  margin-top: 20px;
+  padding: 2%;
+  background-color: rgba(236, 236, 236, 0.5);
+}
 
+.finding {
+  margin-top: 20px;
+  padding: 2%;
+  background-color: rgba(236, 236, 236, 0.5);
+}
+
+/* sub-theme */
+
+/* tooltip */
+.tooltipLabel {
   font-size: 0.8em;
   font-style: normal;
   text-transform: capitalize;
   fill: black;
   z-index: 5;
 }
-
 
 .tooltip_rect-pointer {
   position: absolute;
@@ -144,26 +105,15 @@ p {
 }
 
 .tooltipContainer {
-  fill: rgb(241, 252, 253);
+  fill: rgb(217, 247, 250);
   z-index: 10;
 }
+/* tooltip */
+/* footer */
+.footer {
+  text-align: center;
+  background-color: #464159;
+  padding: 50px 0 20px;
+  }
 
-.grid .tick {
-  stroke-width: 0.9px;
-  /* stroke-dasharray: 4px 2px; */
-  opacity: 0.1;
-}
 
-.grid path {
-  stroke-width: 0;
-}
-
-.axis .tick {
-  stroke-width: 1px;
-  /* stroke-dasharray: 4px 2px; */
-  opacity: 0.9;
-}
-
-.axis path {
-  stroke-width: 0;
-}

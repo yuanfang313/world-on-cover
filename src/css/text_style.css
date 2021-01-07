@@ -1,53 +1,39 @@
-.culture{
-  margin-top: 50px;
 
-  color: #e68b49;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
-}
-.economy{
-  margin-top: 50px;
-
-  color: #5e8dff;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
-}
-.politics{
-  margin-top: 50px;
-
-  color: #5cbf67;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
-}
-.science{
-  margin-top: 50px;
-
-  color: #807acf;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
-}
-.social{
-  margin-top: 50px;
-
-  color: #ab6f6f;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
-}
-.figure{
-  margin-top: 50px;
-
-  color: #76b1b5;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
-}
-.figures{
-  margin-top: 50px;
-
-  color: #75b3d9;
-  font-family:'Alatsi', sans-serif;
-  font-size: 2em;
+/* header texts  */
+.header1_text {
+  text-align: center;
+  margin: 100px 10% 0px 10%;
+  font-size: 5rem;
+  font-family: 'Alatsi', sans-serif;
+  color: #fcf5b0;
 }
 
+.header2_text {
+  text-align: center;
+  margin: 20px 5% 100px 5%;
+  font-size: 2rem;
+  font-family: 'Alatsi', sans-serif;
+  color: #fffdf9;
+}
+
+.header3_text {
+  text-align: center;
+  margin: 20px auto 100px auto;
+  font-size: 1.5rem;
+  font-family: 'Alatsi', sans-serif;
+  color: #fffdf9;
+}
+
+.hd_sl {
+  color: #da2d2d;
+}
+
+.hd_time {
+  color: #c0ffb3;
+}
+/* header texts */
+
+/* span texts */
 .ja{
   font-family: 'Crimson Text', serif;
   color: black;
@@ -59,7 +45,32 @@
   color: black;
 }
 .ja3{
+  text-align: center;
   font-family: 'Alatsi', sans-serif;
   color: black;
   font-size: 1.2em;
 }
+/* span texts */
+
+/* sub-title texts */
+.title_ch {
+  margin-top: 75px;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Alatsi', sans-serif;
+}
+/* sub-title texts */
+
+/* footer texts */
+.footer-link {
+  margin-left: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color:rgb(121, 248, 242);   
+}
+.copyright {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 1rem;
+  color:rgb(252, 252, 252); 
+}
+/* footer texts */

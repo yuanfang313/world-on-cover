@@ -1,5 +1,6 @@
 import React from "react";
 import timelineImg from "../../img/timeline.svg";
+import coverOfApr from "../../img/all.svg";
 
 function IntroInHeader(props) {
   return (
@@ -28,6 +29,22 @@ function IntroInHeader(props) {
         </div>
         <div className="col-lg-1"></div>
       </div>
+      <br />
+      <p className="th2_text container">Now, <em className="ja2">Sanlian lifeweek </em> is one of the most respectful media in China. So, I decided to do some analysis of the headlines
+          on the covers of <em className="ja2">Sanlian Lifeweek</em> from <span className="ja2">2003 – 2018</span> (the time range that’s covered by its <a href="http://www.lifeweek.com.cn/magazine/lifeweek/2019/">archive online</a>), to see how its contents
+          had changed over time.</p>
+       
+      <div>
+        <div className="row">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-10">
+            <img className="timeline_img" src={coverOfApr} alt="" />
+          </div>
+          <div className="col-lg-1"></div>
+        </div>
+        <p className="ja3">The last issue of April from 2003 to 2018</p>
+      </div>
+
     </section>
   );
 }

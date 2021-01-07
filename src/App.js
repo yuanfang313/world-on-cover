@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import * as d3 from "d3";
-import "./App.css";
+
 import Header from "./components/contents/Header";
 import IntroInHeader from "./components/contents/IntroInHeader";
 import MainCategory from "./components/contents/MainCategory/MainCategory";
 import SubCategory from "./components/contents/SubCategory/SubCategory";
 
+
 import data from "./data-dev/data.json";
 import data2 from "./data-dev/subDataOverYears.json";
 import data3 from "./data-dev/subTotalComparison.json";
+import Summary from "./components/contents/Summary";
+import Footer from "./components/contents/Footer";
 
 const dateParser = d3.timeParse("%Y");
 const dateAccessor = (d) => dateParser(d.year);
@@ -59,8 +62,10 @@ function App() {
           categoryArr={categoryArr}
           xAccessor_lineChart={dateAccessor}
           xAccessor_barChart={proportionAccessor}
-        />
+        /> 
+        <Summary />
       </main>
+      <Footer />
     </React.Fragment>
   );
 }
