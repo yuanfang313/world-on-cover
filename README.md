@@ -1,1 +1,1 @@
-[Project Link](https://yuanfang313.github.io/world-on-cover/public/)
+[Project Link](https://yuanfang313.github.io/world-on-cover/)
