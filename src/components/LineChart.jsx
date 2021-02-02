@@ -22,17 +22,23 @@ function LineChart({
 }) {
   let yMax = bool ? 0.6 : 0.4;
 
-  const xScale = d3
+  const xScale_1 = d3
     .scaleTime()
     .domain(d3.extent(data, xAccessor))
     .range([0, dimensions.boundedWidth]);
 
-  const yScale = d3
+  const xScale_2 = d3
+    .scaleTime()
+    .domain(d3.extent(data, xAccessor))
+    .range([dimensions.boundedWidth * 0.10, dimensions.boundedWidth * 0.90]);
+  
+    const yScale = d3
     .scaleLinear()
     .domain([0, yMax])
     .range([dimensions.boundedHeight, 0])
     .nice();
 
+  let xScale = bool ? xScale_2 : xScale_1;
   const xAccessorScaled = (d) => xScale(xAccessor(d));
   const yAccessorScaled = (d) => yScale(yAccessor(d));
   const keyAccessor = (d, i) => i;
@@ -44,9 +50,9 @@ function LineChart({
       <Chart dimensions={dimensions}>
         <RectBackground />
 
-        <Axis dimension="x" scale={xScale} label={label} bool={bool} />
+        <Axis dimension="x" scale={xScale_1} label={label} bool={bool} />
         <Axis dimension="y" scale={yScale} label={label} />
-        <Grids dimension="x" scale={xScale} label={label} />
+        <Grids dimension="x" scale={xScale_1} label={label} />
         <Grids dimension="y" scale={yScale} label={label} />
 
         <Line

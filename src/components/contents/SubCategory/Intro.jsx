@@ -17,7 +17,10 @@ function Intro({ category }) {
   };
 
   return (
-    <div className="sub_intro">{intro[category.split(" ").join("_")]}</div>
+    
+    <div className="sub_intro container">
+      <h5 className="container">{category.toUpperCase()}</h5>
+      {intro[category.split(" ").join("_")]}</div>
   );
 }
 

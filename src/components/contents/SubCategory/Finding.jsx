@@ -18,7 +18,7 @@ function Finding({ category }) {
 
   return (
     <div className="finding">
-      <h5 className="container">Other Finding</h5>
+      <h5 className="container">OTHER FINDINGS</h5>
       {finding[category.split(" ").join("_")]}
     </div>
   );

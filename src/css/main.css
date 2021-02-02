@@ -1,3 +1,4 @@
+
 p {
   display: block;
   margin-top: 20px;
@@ -25,11 +26,147 @@ p {
 #intro {
   margin-top: 100px;
 }
-.timeline_img{
-  margin-top: 3%;
-  width: 100%;
+#introText_2 {
+  margin-top: 10%;
 }
 
+.notation {
+  margin-top: 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  color: rgb(65, 65, 65);
+}
+
+#introImage_1 {
+  text-align: center;
+}
+#introImage_2 {
+  /* text-align: center; */
+  margin-top: 10%;
+
+}
+.timeline_img_1 {
+  margin-top: 5%;
+  width: 85%;
+}
+@media (max-width: 768px) {
+  .timeline_img_1 {
+    content: url("../img/timeline2.svg")
+  }
+}
+.updatedInfoContainer {
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 50px;
+}
+.updatedInfo {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+hr.divider_updateInfo {
+  width: 90%;
+
+}
+.col-lg-1 {
+  padding-right: 0px;
+}
+.updatedInfo.year {
+  padding-left:10px;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 1.2rem;
+  color: rgb(4, 88, 121);
+}
+#updateText {
+  border-left: 5px solid rgb(226, 6, 6);
+}
+.updatedInfo.chinese {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  color: rgb(121, 89, 4);
+}
+.updatedInfo.english {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+#updateHeadline {
+  position: relative;
+  margin-top: 0.6rem;
+  border-left: 5px solid rgb(226, 6, 6);
+  /* padding-left: 0.8rem; */
+}
+.CoverSampleContainer {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin-top: 5%;
+}
+.CoverSampleItem {
+  text-align: center;
+  margin: 7px;
+  margin-bottom: 15px;
+} 
+
+.timeline_img_2 {
+  margin-bottom: 7px;
+  width: 100px;
+}
+
+.timeline_img_2:hover {
+  transform: translate(0, -10%) scale(1.15);
+  box-shadow: 0px 10px 15px 0px rgba(116, 116, 116, 0.377);
+  transition: all 0.2s ease-out;
+}
+
+.coverCaption {
+ position: relative;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-family: 'Alatsi', sans-serif;
+ font-size: 1.0rem;
+ color: rgb(4, 88, 121); 
+}
+.caption {
+ position: relative;
+ margin-top: -5px;
+ margin-bottom: 0px;
+ margin-left: 4%;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-size: 1.0rem;
+ color: rgb(102, 102, 102); 
+}
+
+@media (max-width: 768px) {
+  #updateText {
+    margin-left: 5%;
+  }
+  .updatedInfo.chinese {
+    font-size: 0.9rem; 
+  }
+  .updatedInfo.english {
+    font-size: 1.1rem;
+  }
+  .CoverSampleContainer {
+    display: flex;
+    margin-top: 15%;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .CoverSampleItem {
+    text-align: center;
+    margin: 3px;
+    margin-bottom: 3px;
+  }
+  .timeline_img_2 {
+    margin-bottom: 3px;
+    width: 50px;
+  }
+  .coverCaption {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 0.8rem;
+   }   
+}
 /* theme */
 .theme1_ch {
   margin-top: 10px;

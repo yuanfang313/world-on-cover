@@ -2,17 +2,14 @@ import React from "react";
 
 function IntroSubC(props) {
   return (
-    <div className="theme2">
-      <h2 className="title_ch">The Trend of Subcategories (2003 - 2018)</h2>
-      <p className="th2_text container">
-        Here are the detailed contents about subcategories of headlines. Except
-        the “NA” category, I selected the 6 subcategories that have the maximum
-        proportions of each category to look into the shape of data, of which
-        the quantitative relation is shown by the bar charts beneath.
+    <div className="subtheme container">
+      <h2 className="title_ch">Trend of Subtheme on the Cover</h2>
+      <p>
+        As Cover Story normally would discusses a specific topic, each <span className="ja2">Main Theme</span> can be categorized into multiple <span className="ja2">Subthemes</span>. The charts beneath shown the patterns of these subthemes. I selected the six subthemes that occupy the maximum proportions of the six main themes of the cover.
       </p>
-      <p className="th2_text container">
-        You can hover over each bar in the bar charts to see how the proportion
-        of a subcategory had changed every four years from 2003 to 2018.
+    
+      <p className="notation">
+        * Hover over each bar in the bar charts to see how the proportion of a subtheme changed every four years from 2003 to 2018.
       </p>
     </div>
   );

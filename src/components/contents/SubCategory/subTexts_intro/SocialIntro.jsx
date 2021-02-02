@@ -4,9 +4,9 @@ function SocialIntro(props) {
   return (
     <React.Fragment>
       <p className="th2_text container">
-        The category, “Social Issues” is consisted of
-        <span className="ja2"> 8 subcategories</span>, the rest of which are:
-        <span className="ja">Science and Ethical Issues and Disaster.</span>
+         <span className="ja2">Social Issues</span> is consisted of
+        <span className="ja2"> eight subthemes</span>. The rest are:
+        <span className="ja2"> Science and Ethical Issues</span> and <span className="ja2">Disaster.</span>
       </p>
     </React.Fragment>
   );

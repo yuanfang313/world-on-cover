@@ -44,13 +44,18 @@
   font-size: 18px;
   color: black;
 }
-.ja3{
+/* .ja3{
   text-align: center;
   font-family: 'Alatsi', sans-serif;
   color: black;
   font-size: 1.2em;
-}
+} */
 /* span texts */
+
+
+.th2_text {
+  line-height: 1.9rem;
+}
 
 /* sub-title texts */
 .title_ch {
