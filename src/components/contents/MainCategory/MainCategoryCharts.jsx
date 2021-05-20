@@ -5,7 +5,7 @@ import Dimensions from "../utils/Dimensions";
 const dimensions = new Dimensions(270, 1, 50, 30, 30, 60);
 
 function MainCategoryCharts({ categoryArr, colors, data, xAccessor }) {
-  return (
+  return (  
     <div className="chart">
       {categoryArr.map((el, i) => (
         <LineChart
@@ -18,7 +18,7 @@ function MainCategoryCharts({ categoryArr, colors, data, xAccessor }) {
           color={colors[i]}
         />
       ))}
-    </div>
+    </div>   
   );
 }
 
