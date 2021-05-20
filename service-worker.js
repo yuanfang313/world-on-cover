@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/world-on-cover/precache-manifest.42b00e627e28957c5e94e644fed808ce.js"
+  "/world-on-cover/precache-manifest.5f19a3fc27041df6eff79b68b4510f4b.js"
 );
 
 self.addEventListener('message', (event) => {
