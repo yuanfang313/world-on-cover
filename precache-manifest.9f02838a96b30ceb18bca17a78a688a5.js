@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65b2799e880e5b493134e580aabdae09",
+    "revision": "3cb358d3bbaf521d2b0ddb7ac30a45bf",
     "url": "/world-on-cover/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/world-on-cover/static/css/2.2ff4fdcb.chunk.css"
   },
   {
-    "revision": "bc8987747964f152944a",
-    "url": "/world-on-cover/static/css/main.a628cdb3.chunk.css"
+    "revision": "c27455c22684b0595af5",
+    "url": "/world-on-cover/static/css/main.533fbfc9.chunk.css"
   },
   {
     "revision": "01d725c48710caa73d41",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/world-on-cover/static/js/2.4cc39ef9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc8987747964f152944a",
-    "url": "/world-on-cover/static/js/main.3974368f.chunk.js"
+    "revision": "c27455c22684b0595af5",
+    "url": "/world-on-cover/static/js/main.1517ae71.chunk.js"
   },
   {
     "revision": "c2f0176874fd2390750e",
