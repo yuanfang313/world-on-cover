@@ -1,6 +1,6 @@
 import React from "react";
 import LineChart from "../../LineChart";
-import Dimensions from "../utils/Dimensions";
+import Dimensions from "../../../utils/Dimensions";
 
 const dimensions = new Dimensions(270, 1, 50, 30, 30, 60);
 

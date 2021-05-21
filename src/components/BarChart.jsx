@@ -1,7 +1,7 @@
 import React from "react";
 import * as d3 from "d3";
 import Chart from "./Chart";
-import Bars from "./commonChart/Bars";
+import Bars from "./chartElement/Bars";
 
 function BarChart({
   data,

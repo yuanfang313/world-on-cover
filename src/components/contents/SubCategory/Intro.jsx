@@ -20,7 +20,8 @@ function Intro({ category }) {
     
     <div className="sub_intro container">
       <h5 className="container">{category.toUpperCase()}</h5>
-      {intro[category.split(" ").join("_")]}</div>
+      {intro[category.split(" ").join("_")]}
+      {console.log(category)}</div>
   );
 }
 

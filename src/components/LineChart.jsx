@@ -2,11 +2,11 @@ import React from "react";
 import * as d3 from "d3";
 
 import Chart from "./Chart";
-import RectBackground from "./commonChart/RectBackground";
-import Axis from "./commonChart/Axis";
-import Grids from "./commonChart/Grids";
-import Line from "./commonChart/Line";
-import Circle from "./commonChart/Circle";
+import RectBackground from "./chartElement/RectBackground";
+import Axis from "./chartElement/Axis";
+import Grids from "./chartElement/Grids";
+import Line from "./chartElement/Line";
+import Circle from "./chartElement/Circle";
 
 function LineChart({
   data,
@@ -49,7 +49,6 @@ function LineChart({
     <div className="lineChart">
       <Chart dimensions={dimensions}>
         <RectBackground />
-
         <Axis dimension="x" scale={xScale_1} label={label} bool={bool} />
         <Axis dimension="y" scale={yScale} label={label} />
         <Grids dimension="x" scale={xScale_1} label={label} />

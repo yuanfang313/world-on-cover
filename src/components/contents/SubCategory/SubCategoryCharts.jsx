@@ -1,6 +1,5 @@
 import React from "react";
-import * as d3 from "d3";
-import Dimensions from "../utils/Dimensions";
+import Dimensions from "../../../utils/Dimensions";
 import LineChart from "../../LineChart";
 import BarChart from "../../BarChart";
 

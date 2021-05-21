@@ -1,0 +1,44 @@
+[
+    {
+        "category": "culture",
+        "intro": "Generally, Culture has larger proportion than other main themes. It’s consisted of ten subthemes. Except the six subthemes shown above, the rest are: Literature, History, Video Games, Design, Religion.",
+        "finding_1": "1. The subthemes, Foreign Culture, Literature, Video Games, Design, Religion hadn’t appeared until 2007.",
+        "finding_2": "2. Only one headline belongs to Religion, which appeared in 2010. It is about the discussion of“the new meanings of Buddhism in modern society”.",
+        "intro_notation": ""
+    },
+    {
+        "category": "economy",
+        "intro": "Generally, the proportion of Economy reduced from 2003 to 2018. It had a seemingly rapid growth period from 2006 to 2008 (the year of Beijing Olympic Games). The main theme, Economy is consisted of eleven subthemes. The rest are: Trade, Pricing, Foreign Economy, Employment, Consumer Spending, New Economy.",
+        "finding_1": "Foreign Economy are all about countries in Asia, which are Vietnam (2008), Dubai(2010), Iran(2012), Japan(2012), North Korea (2017), and Saudi Arabia(2018).",
+        "finding_2": "2. Only one headline belongs to Religion, which appeared in 2010. It is about the discussion of“the new meanings of Buddhism in modern society”.",
+        "intro_notation": ""
+    },
+    {
+        "category": "politics",
+        "intro": "Politics is consisted of eleven subthemes. The rest are: Judicial System, Military, Infrastructure, Diplomacy, Political System.",
+        "finding_1": "There are eight headlines falling into Warfare. Seven of them are about Iraq War(5/7) and Gulf War (2/7), which all appeared in 2003.",
+        "finding_2": "2. There are five headlines falling into Military, which only focus on two kinds of contents: Navy (3/5) and Military Parade (2/5).",
+        "finding_3": "3. Nearly half of the headlines (8/19) falling into Foreign Politics are about countries in Middle East.",
+        "finding_4": "4. Most headlines (6/8) falling into International Politics are about territorial disputes.",
+        "intro_notation": ""
+    },
+    {
+        "category": "science and technology",
+        "intro": "Generally, Culture has larger proportion than other main themes. It’s consisted of ten subthemes. Except the six subthemes shown above, the rest are: Literature, History, Video Games, Design, Religion.",
+        "finding_1": "1. The subthemes, Foreign Culture, Literature, Video Games, Design, Religion hadn’t appeared until 2007.",
+        "finding_2": "2. Only one headline belongs to Religion, which appeared in 2010. It is about the discussion of“the new meanings of Buddhism in modern society”.",
+        "intro_notation": ""
+    },
+    {
+        "category": "social issue",
+        "intro": "Science and Technology is consisted of eight subthemes. The rest are: Pharmaceutical Technology and Physics.",
+        "finding_1": "From 2003 to 2018, there are six headlines falling into Computer Science, which only focused on two topics: Artificial Intelligence (4/6) and Virtual Reality (2/6).",
+        "intro_notation": ""
+    },
+    {
+        "category": "figure",
+        "intro": "Figure refers to people who were introduced as individuals who were not criminals. This main theme is consisted of fourteen subthemes. The rest are: Military Commanders, Scientists, Athletes, Astronauts, Doctors, Philosophers, Professors, Translators.",
+        "finding_1": "From 2003 to 2018, there are four headlines falling into Scientist, which only focused on: Mathematicians (2/4) and Physicists (2/4).",
+        "intro_notation": "* The individuals whose occupations only appears once from 2003 to 2018 are classified as “NA”, which consist 8.9% of Figure."
+    }
+]

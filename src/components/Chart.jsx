@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from "react";
-import "./Chart.css";
+import "../css/Chart.css";
 
 const ChartContext = createContext();
 ChartContext.displayName = "ChartContext";

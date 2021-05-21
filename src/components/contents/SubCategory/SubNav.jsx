@@ -1,6 +1,6 @@
 import React from "react";
 
-function SubNav({ onClick, index, num}) {
+function SubNav({ onClick }) {
   const categoryArr = [
     "culture",
     "economy",

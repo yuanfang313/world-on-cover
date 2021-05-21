@@ -70,10 +70,10 @@ class CoverSamples extends Component {
             
         <ul className="CoverSampleContainer">
         {Data.map((el, i) => (
-                <g key = {i} className="CoverSampleItem">
+                <div key = {i} className="CoverSampleItem">
                 <img id = {2003 + i} className="timeline_img_2" src={coverArr[i]} onMouseEnter={() => this.mouseEnter(el,i)} onMouseOut={() => this.mouseOut()} alt="cover"/>
                 <p className="coverCaption">{el.year}</p>
-                </g>
+                </div>
             ))   
             }
         </ul>
