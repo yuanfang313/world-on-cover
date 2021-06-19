@@ -7,8 +7,8 @@
 
 <br>
 
-- **Course**: Special Topics in Journalism and Media Management
-- **Duration**: 3months [Sep - Dec 2019, Oct 2020]
+- **Course**: Advanced Infographics and Data Visualization
+- **Duration**: 2 months [ Apr - Jun 2020 ]
 - **Role**: Independent project, full stack designer & developer
 - **Prototyping Tools**: Photoshop, Illustrator, Excel
 - **Programming language & lib**: HTML, CSS, JS, D3.js, React.js
